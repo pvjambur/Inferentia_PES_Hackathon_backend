@@ -26,3 +26,4 @@ torchaudio
 torchvision
 uvicorn[standard]
 python-multipart
+pydantic_settings
