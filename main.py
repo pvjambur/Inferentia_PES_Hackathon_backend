@@ -25,10 +25,17 @@ from routes import (
  # This is the correct way
 # --- Groq Integration (New) ---
 from groq import Groq
+from dotenv import load_dotenv
 
 # A simple wrapper for the Groq client to manage the API key and instantiation.
-class GroqClient:
-    def __init__(self, api_key: str):
+load_dotenv()
+
+class GroqService:
+    def __init__(self):
+        # Retrieve the API key from the environment
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            raise ValueError("GROQ_API_KEY not found in environment variables.")
         self.client = Groq(api_key=api_key)
 
     def generate_content(self, prompt: str, model: str = "llama3-8b-8192") -> str:
@@ -78,7 +85,7 @@ async def lifespan(app: FastAPI):
     if not groq_api_key:
         logger.warning("GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.")
     else:
-        app.state.groq = GroqClient(api_key=groq_api_key)
+        app.state.groq = GroqService()
         
     logger.info("Application startup complete")
     yield

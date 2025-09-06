@@ -1,11 +1,8 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 from typing import Dict, Any, Optional
 from enum import Enum
 
 class ModelType(str, Enum):
-    """
-    Enumeration of supported model types.
-    """
     LINEAR = "linear"
     LOGISTIC = "logistic"
     SVM = "svm"
@@ -17,9 +14,6 @@ class ModelType(str, Enum):
     TRANSFORMER = "transformer"
 
 class DataType(str, Enum):
-    """
-    Enumeration of supported data types.
-    """
     CSV = "csv"
     JSON = "json"
     EXCEL = "excel"
@@ -28,18 +22,14 @@ class DataType(str, Enum):
     AUDIO = "audio"
 
 class TrainingRequest(BaseModel):
-    """
-    Schema for a training request.
-    """
+    model_config = ConfigDict(protected_namespaces=())
     model_name: str = Field(..., description="The name of the model to be trained.")
     model_type: ModelType = Field(..., description="The type of the model.")
     dataset_id: str = Field(..., description="The ID of the dataset to use for training.")
     hyperparameters: Dict[str, Any] = Field({}, description="A dictionary of hyperparameters.")
 
 class TrainingStatus(BaseModel):
-    """
-    Schema for a training status response.
-    """
+    model_config = ConfigDict(protected_namespaces=())
     job_id: str = Field(..., description="The unique ID for the training job.")
     status: str = Field(..., description="The current status of the training job.")
     metrics: Dict[str, Any] = Field({}, description="Performance metrics of the trained model.")
@@ -48,9 +38,7 @@ class TrainingStatus(BaseModel):
     model_path: Optional[str] = Field(None, description="File path of the trained model.")
 
 class TrainingResponse(BaseModel):
-    """
-    Schema for the response from the /start endpoint.
-    """
+    # This class has no 'model_' prefix fields, so no change is needed.
     job_id: str = Field(..., description="The unique ID for the training job.")
     status: str = Field(..., description="The current status of the training job.")
     message: str = Field(..., description="A message about the training job.")

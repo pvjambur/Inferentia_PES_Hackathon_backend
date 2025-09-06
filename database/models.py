@@ -3,7 +3,6 @@ from typing import List, Dict, Any, Optional
 from datetime import datetime
 
 class AgentConfig(BaseModel):
-    # Add this line to disable the protected namespace check for this model
     model_config = ConfigDict(protected_namespaces=())
 
     name: str = Field(..., description="The name of the agent.")
@@ -17,7 +16,6 @@ class AgentConfig(BaseModel):
     params: Dict[str, Any] = Field({}, description="Additional parameters for the agent's behavior.")
 
 class ModelMetadata(BaseModel):
-    # Add this line as this class has conflicting fields like 'model_type'
     model_config = ConfigDict(protected_namespaces=())
 
     id: str = Field(..., description="Unique identifier for the trained model.")
@@ -41,7 +39,6 @@ class DatasetMetadata(BaseModel):
     created_at: datetime = Field(default_factory=datetime.utcnow, description="Timestamp when the dataset metadata was created.")
 
 class TrainingIteration(BaseModel):
-    # Add this line as this class has a conflicting field 'model_id'
     model_config = ConfigDict(protected_namespaces=())
 
     id: str = Field(..., description="Unique identifier for the training iteration.")

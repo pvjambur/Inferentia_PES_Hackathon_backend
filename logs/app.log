@@ -37,3 +37,79 @@ Trying to resume download...
 [2025-09-06 21:47:05,431] [INFO] [main] [lifespan] - Application startup complete
 [2025-09-06 22:01:29,607] [INFO] [main] [lifespan] - Shutting down application...
 [2025-09-06 22:01:29,608] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:40:23,751] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:40:23,806] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:40:28,358] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:40:28,359] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:40:41,418] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:40:41,418] [WARNING] [main] [lifespan] - GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.
+[2025-09-07 01:40:41,418] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:43:22,783] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:43:22,783] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:44:10,941] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:44:10,994] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:44:15,577] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:44:15,578] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:44:21,618] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:44:21,618] [WARNING] [main] [lifespan] - GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.
+[2025-09-07 01:44:21,619] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:45:56,080] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:45:56,080] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:46:09,437] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:46:09,490] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:46:14,018] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:46:14,018] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:46:27,001] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:46:27,001] [WARNING] [main] [lifespan] - GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.
+[2025-09-07 01:46:27,001] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:46:45,176] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:46:45,176] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:46:56,407] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:46:56,461] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:47:01,027] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:47:01,027] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:47:16,171] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:47:16,171] [WARNING] [main] [lifespan] - GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.
+[2025-09-07 01:47:16,171] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:48:15,971] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:48:16,026] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:48:20,586] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:48:20,586] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:48:29,909] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:48:29,909] [WARNING] [main] [lifespan] - GROQ_API_KEY not found in environment variables. Groq endpoints will be disabled.
+[2025-09-07 01:48:29,909] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:50:25,717] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:50:25,717] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:51:12,636] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:51:36,739] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:51:36,797] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:51:41,382] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:51:41,382] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:51:51,853] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:51:52,078] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:56:05,361] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:56:05,361] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:56:17,643] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:56:17,700] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:56:22,258] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:56:22,259] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:56:38,640] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:56:38,696] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:56:43,270] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:56:43,270] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:56:49,265] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:56:49,487] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:58:11,194] [INFO] [main] [lifespan] - Shutting down application...
+[2025-09-07 01:58:11,195] [INFO] [core.vectordb.qdrant_manager] [close] - Qdrant client connection closed
+[2025-09-07 01:59:20,907] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:59:20,962] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 01:59:25,550] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 01:59:25,551] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 01:59:38,325] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 01:59:38,555] [INFO] [main] [lifespan] - Application startup complete
+[2025-09-07 01:59:55,521] [INFO] [utils.chunk_manager] [__init__] - ChunkManager initialized.
+[2025-09-07 01:59:55,622] [INFO] [main] [lifespan] - Starting ML Backend Application...
+[2025-09-07 02:00:00,451] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Use pytorch device_name: cpu
+[2025-09-07 02:00:00,451] [INFO] [sentence_transformers.SentenceTransformer] [__init__] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2025-09-07 02:00:12,107] [INFO] [core.vectordb.qdrant_manager] [initialize] - Qdrant client initialized successfully
+[2025-09-07 02:00:12,480] [INFO] [main] [lifespan] - Application startup complete
