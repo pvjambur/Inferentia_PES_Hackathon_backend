@@ -16,7 +16,6 @@ pydantic
 pytest
 pytest-asyncio
 python-jose[cryptography]
-pytorch-gan
 qdrant-client
 scikit-learn
 sentence-transformers
